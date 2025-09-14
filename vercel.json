@@ -23,11 +23,6 @@
       "dest": "/$1"
     }
   ],
-  "functions": {
-    "api/*.js": {
-      "runtime": "@vercel/node@2.15.10"
-    }
-  },
   "headers": [
     {
       "source": "/api/(.*)",
